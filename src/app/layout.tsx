@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Spline_Sans } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/general/NavBar/NavBar";
+import Divider from "@/components/general/Dividers/Divider";
 
-const inter = Inter({ subsets: ["latin"] });
+//const inter = Inter({ subsets: ["latin"] });
+const splieSans = Spline_Sans({subsets: ["latin"], weight: ["300", "400", "500", "600", "700"]})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={splieSans.className}>
+        <NavBar/>
+        <Divider/>
+        {children}
+        </body>
     </html>
   );
 }
