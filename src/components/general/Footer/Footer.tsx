@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <Divider/>
         <Container style="flex justify-between flex-wrap pt-[2rem] pb-[3rem]">
-            <div className="w-1/3">
+            <div className="w-2/3 sm:w-1/3">
                 <Logo/>
                 <p className="text-primary-dark text-[0.9rem] mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>

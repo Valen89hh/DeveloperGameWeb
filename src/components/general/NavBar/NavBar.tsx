@@ -1,6 +1,11 @@
+import Image from "next/image";
 import Container from "../Containers/Container";
+import { useSideBarContext } from "@/context/SideBarContext";
 
 const NavBar = () => {
+
+    const {setOpen} = useSideBarContext()
+
     return ( 
     <Container>
         <header className="w-full flex 
@@ -12,7 +17,7 @@ const NavBar = () => {
             <h2 className="text-xl font-bold text-blackout">GameDevCo</h2>
         </div>
 
-        <nav>
+        <nav className="hidden sm:block">
             <ul className="flex gap-4 items-center">
                 <li>
                     <a href="#home">Home</a>
@@ -31,6 +36,14 @@ const NavBar = () => {
                 </li>
             </ul>
         </nav>
+        <Image
+            src={"/icons/Menu.svg"}
+            alt="menu"
+            height={27}
+            width={27}
+            className="block sm:hidden cursor-pointer"
+            onClick={()=> setOpen(true)}
+        />
         </header> 
     </Container>
     );
