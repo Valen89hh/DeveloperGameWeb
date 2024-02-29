@@ -18,7 +18,14 @@ const config: Config = {
         "primary-dark": "#61758A",
         "secondary": "#F0F2F5",
         "blackout": "#121417"
-      }
+      },
+      screens: {
+      'xs': "480px",
+      'sm': "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px"
+    }
     },
   },
   plugins: [],
