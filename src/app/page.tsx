@@ -1,3 +1,4 @@
+import AboutUs from "@/components/pages/home/AboutUs/AboutUs";
 import MainSection from "@/components/pages/home/MainSection/MainSection";
 import MajorSection from "@/components/pages/home/MajorSection/MajorSection";
 import ServiceSection from "@/components/pages/home/ServiceSection/ServiceSection";
@@ -9,6 +10,7 @@ export default function Home() {
   <MainSection/>
   <MajorSection/>
   <ServiceSection/>
+  <AboutUs/>
   </>
   );
 }

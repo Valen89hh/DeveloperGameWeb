@@ -29,7 +29,7 @@ const NavBar = () => {
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#About">Home</a>
+                    <a href="#about">About</a>
                 </li>
                 <li className="px-3 py-[0.4rem] text-white bg-primary rounded-md">
                     <a href="#contact">Contact</a>
