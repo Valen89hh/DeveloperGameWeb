@@ -17,6 +17,7 @@ const config: Config = {
         "primary": "#0D7DF2",
         "primary-dark": "#61758A",
         "secondary": "#F0F2F5",
+        "secondary-dark": "#374957",
         "blackout": "#121417",
         "primary-light": "#DBE0E5"
       },
