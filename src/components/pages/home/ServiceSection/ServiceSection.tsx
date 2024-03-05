@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 import getAllService from "@/data/local/ServiceRepository";
 
 const ServiceSection = () => {
-    return ( <Container style="my-8">
+    return ( <Container style="my-[3rem] ">
         <Title text="Our Services" className="text-center my-4"/>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
             {getAllService().map((i)=>(
