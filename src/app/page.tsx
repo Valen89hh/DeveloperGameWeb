@@ -1,4 +1,5 @@
 import AboutUs from "@/components/pages/home/AboutUs/AboutUs";
+import ContactSection from "@/components/pages/home/Contact/ContactSection";
 import MainSection from "@/components/pages/home/MainSection/MainSection";
 import MajorSection from "@/components/pages/home/MajorSection/MajorSection";
 import Portfolio from "@/components/pages/home/Portfolio/Portfolio";
@@ -13,6 +14,7 @@ export default function Home() {
   <ServiceSection/>
   <AboutUs/>
   <Portfolio/>
+  <ContactSection/>
   </>
   );
 }
