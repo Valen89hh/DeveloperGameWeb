@@ -49,7 +49,7 @@ const Footer = () => {
         </Container>
         <Divider/>
         <div className="w-full text-center py-[1rem]">
-            <span className="text-primary-dark text-sm">Copyright ® 2024 GameDevCo</span>
+            <span className="text-primary-dark text-sm">Copyright  2024 GameDevCo</span>
         </div>
         <Divider/>
 
