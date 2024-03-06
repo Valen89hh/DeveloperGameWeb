@@ -19,7 +19,8 @@ const config: Config = {
         "secondary": "#F0F2F5",
         "secondary-dark": "#374957",
         "blackout": "#121417",
-        "primary-light": "#DBE0E5"
+        "primary-light": "#DBE0E5",
+        "background": "#CECECE"
       },
       screens: {
       'xs': "480px",
