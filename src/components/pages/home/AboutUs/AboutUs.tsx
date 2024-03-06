@@ -3,7 +3,7 @@ import Container from "@/components/general/Containers/Container";
 import Image from "next/image";
 
 const AboutUs = () => {
-    return  <Container style="grid grid-cols-1 md:grid-cols-2 gap-5 my-[3rem] " id="about">
+    return  <Container style="grid grid-cols-1 md:grid-cols-2 gap-5 my-[8rem] " id="about">
         <img src="/drawable/ImgAboutUs.svg" alt="" className="w-full h-[300px] md:h-[400px] object-cover rounded-lg" />
 
         <div className="flex flex-col gap-4">
