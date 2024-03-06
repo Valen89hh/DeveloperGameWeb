@@ -1,0 +1,56 @@
+
+.side-open{
+    animation: open 0.3s ease-in-out forwards;
+}
+
+.side-close{
+    animation: close 0.3s ease-in-out forwards;
+}
+
+.hidden-side{
+    animation: invisible 0.3s ease-in-out forwards;
+}
+
+.visible-side{
+    animation: visto 0.3s ease-in-out forwards;
+}
+
+@keyframes open {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes close {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes visto {
+    from{
+        display: none;
+        opacity: 0;
+    }
+    to{
+        display: fixed;
+        opacity: 1;
+    }
+}
+
+@keyframes invisible {
+    from{
+        display: fixed;
+        opacity: 1;
+    }
+    to{
+        display: none;
+        opacity: 0;
+    }
+}
