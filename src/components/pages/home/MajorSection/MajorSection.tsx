@@ -4,7 +4,7 @@ import Title from "@/components/general/Texts/Title";
 import getAllGameStyle from "@/data/local/GameStyleRepository";
 
 const MajorSection = () => {
-    return ( <Container style="my-[3rem] ">
+    return ( <Container style="my-[8rem] ">
 
         <Title text="Game Styles" className="text-center mb-4"/>
         <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-2">
