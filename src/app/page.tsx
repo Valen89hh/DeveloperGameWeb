@@ -6,6 +6,8 @@ import Portfolio from "@/components/pages/home/Portfolio/Portfolio";
 import ServiceSection from "@/components/pages/home/ServiceSection/ServiceSection";
 import Image from "next/image";
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   return (<>
 
