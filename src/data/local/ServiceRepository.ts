@@ -1,6 +1,7 @@
-import { ServiceModel } from "@/domain/models/local/ServiceModel";
-import { v4 as uuidv4 } from 'uuid';
+import { ServiceModel } from "@/domain/models/local/ServiceModel"; // Importa el modelo de servicio
+import { v4 as uuidv4 } from 'uuid'; // Importa la función uuidv4 para generar IDs únicos
 
+// Lista de servicios con sus detalles
 const listService: ServiceModel[] = [
     {
         id: uuidv4(),
@@ -44,8 +45,9 @@ const listService: ServiceModel[] = [
     }
 ]
 
-function getAllService(){
-    return listService
+// Función para obtener todos los servicios disponibles
+function getAllService(): ServiceModel[] {
+    return listService; // Devuelve la lista de servicios
 }
 
-export default getAllService
+export default getAllService; // Exporta la función getAllService para su uso en otros archivos
