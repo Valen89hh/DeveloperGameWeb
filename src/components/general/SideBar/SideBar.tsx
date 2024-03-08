@@ -22,7 +22,7 @@ const SideBar = () => {
      h-screen z-10
      ${open ? style["visible-side"] : style["hidden-side"]}`}>
         <div className={`w-[80%] sm:w-[400px] 
-        h-full bg-white absolute
+        h-full bg-white dark:bg-accent-dark absolute
          top-0 right-0
          ${open ? style["side-open"] : style["side-close"]}`}>
         <nav className="p-4">

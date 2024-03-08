@@ -20,7 +20,12 @@ const config: Config = {
         "secondary-dark": "#374957",
         "blackout": "#121417",
         "primary-light": "#DBE0E5",
-        "background": "#CECECE"
+        "background": "#CECECE",
+        "accent-dark": "#111121",
+        "accent-light": "#1A1B31",
+        "accent-border": "#212546",
+        "accent-text": "#9894C4",
+        "accent-secondary-button": "#232446"
       },
       screens: {
       'xs': "480px",
@@ -32,5 +37,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class"
 };
 export default config;

@@ -9,7 +9,7 @@ interface CardGameStyleProps{
 const CardGameStyle: React.FC<CardGameStyleProps> = ({
     gameStyle
 }) => {
-    return ( <article className="p-3 border-solid border-[1px] border-primary-light rounded-lg">
+    return ( <article className="p-3 border-solid border-[2px] border-primary-light dark:border-accent-border rounded-lg bg-white dark:bg-accent-light">
         <Image
             src={gameStyle.img}
             alt="style1"
@@ -17,8 +17,8 @@ const CardGameStyle: React.FC<CardGameStyleProps> = ({
             width={50}
             className="rounded-full"
         />
-        <h4 className="text-blackout font-bold text-lg my-1">{gameStyle.style}</h4>
-        <p className="text-primary-dark text-sm">{gameStyle.description}</p>
+        <h4 className="text-blackout dark:text-white font-bold text-lg my-1">{gameStyle.style}</h4>
+        <p className="text-primary-dark dark:text-accent-text text-sm">{gameStyle.description}</p>
     </article> );
 }
  

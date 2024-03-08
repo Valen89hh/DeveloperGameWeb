@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={splieSans.className}>
+      <body className={splieSans.className + " bg-white dark:bg-accent-dark"}>
         <Header/>
         <Divider/>
         {children}
