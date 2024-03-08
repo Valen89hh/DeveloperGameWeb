@@ -6,7 +6,7 @@ interface ParrafoProps{
 const Parrafo: React.FC<ParrafoProps> = ({
     children
 }) => {
-    return ( <p className="text-sm text-secondary-dark">
+    return ( <p className="text-sm text-secondary-dark dark:text-accent-text">
         {children}
     </p> );
 }

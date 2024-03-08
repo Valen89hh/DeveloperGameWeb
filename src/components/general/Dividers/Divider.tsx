@@ -8,7 +8,7 @@ interface DividerProps{
 
 const Divider: React.FC<DividerProps> = ({
     style = "",
-    color = "bg-secondary",
+    color = "bg-secondary dark:bg-accent-light",
     size = "h-[2px]"
 }) => {
     return ( <div className={`${size} ${color}  w-full ${style}`}>

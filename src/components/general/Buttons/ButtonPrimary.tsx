@@ -11,7 +11,7 @@ const ButtonPrimary: React.FC<ButtonPrimaryProps> = ({
     onClick,
     disable = false
 }) => {
-    return ( <button className={`px-3 py-[0.4rem] text-white bg-primary rounded-md ${className}`}
+    return ( <button className={`px-3 py-[0.4rem] text-white bg-primary  rounded-md ${className}`}
      onClick={onClick} disabled={disable} >
         {children}
     </button> );

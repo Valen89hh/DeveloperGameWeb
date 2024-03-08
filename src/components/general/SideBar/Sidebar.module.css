@@ -35,10 +35,12 @@
 
 @keyframes visto {
     from{
+        z-index: -3;
         display: none;
         opacity: 0;
     }
     to{
+        z-index: 10;
         display: fixed;
         opacity: 1;
     }
@@ -46,10 +48,12 @@
 
 @keyframes invisible {
     from{
+        z-index: 10;
         display: fixed;
         opacity: 1;
     }
     to{
+        z-index: -3;
         display: none;
         opacity: 0;
     }
