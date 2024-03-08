@@ -1,5 +1,6 @@
-import { GameStyleModel } from "@/domain/models/local/GameStyleModel";
+import { GameStyleModel } from "@/domain/models/local/GameStyleModel"; // Importa el modelo de estilo de juego
 
+// Lista de estilos de juego con sus detalles
 const listGameStyle: GameStyleModel[] = [
     {
         img: "/drawable/StyleGame1.svg",
@@ -24,8 +25,9 @@ const listGameStyle: GameStyleModel[] = [
 ]
 
 
-function getAllGameStyle(){
-    return listGameStyle
+// Función para obtener todos los estilos de juego disponibles
+function getAllGameStyle(): GameStyleModel[] {
+    return listGameStyle; // Devuelve la lista de estilos de juego
 }
 
-export default getAllGameStyle
+export default getAllGameStyle; // Exporta la función getAllGameStyle para su uso en otros archivos
